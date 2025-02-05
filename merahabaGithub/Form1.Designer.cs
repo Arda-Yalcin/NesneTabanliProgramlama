@@ -42,11 +42,12 @@
             label1.Size = new Size(221, 37);
             label1.TabIndex = 0;
             label1.Text = "Merhaba GitHub";
+            label1.Click += label1_Click;
             // 
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.GithubLogo;
-            pictureBox1.Location = new Point(165, 82);
+            pictureBox1.Location = new Point(152, 77);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(208, 168);
             pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
@@ -57,6 +58,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(511, 308);
             Controls.Add(pictureBox1);
             Controls.Add(label1);
